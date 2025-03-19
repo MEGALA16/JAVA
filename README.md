@@ -1,47 +1,70 @@
-# QuizApp
-**Visit the website:** https://quizchamp.herokuapp.com/ [deployment inactive]
+# Getting Started with Create React App
 
-## About:
-This is a simple online quiz application made with MERN-stack. It is fully responsive and mobile-friendly.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
-## Objectives
-### Completed User Stories:
+## Available Scripts
 
-#### As an Assessor
-+ I should be able to create tests from 24 different categories and set other parameters( Time duration , Test Expiry and Number of Questions(<50) )
-+ I should be able to take tests.
-+ I should be able to view tests created by me and results of those tests.
+In the project directory, you can run:
 
-#### As an Examine
-+ I should be able to take tests after providing my information.
-+ I should be able to take each test only once.
-+ I should not be able to take tests after its expiry.
-+ The test should auto-submit when the time expiries.
+### `npm start`
 
-#### As a secure app
-+ No one should have access to test information or test results without authentication.
-+ Test questions keeps changing to avoiding cheating.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
-## Tech-Stack
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Front-End:
-The front-end is developed using **HTML5** , **CSS3** and **React (a modern javascript-framework)**.  
-**React-Router-DOM** is used for navigating between different view of the SPA.  
-**Bubbling and Capturing** is used for DOM manupilation.  
-**LocalStorage** is used for client side caching.  
-**React-Modal** is used to creating popups.  
+### `npm test`
 
-### Back-End:
-The backend is developed in **Nodejs (a javascript runtime envionment)**,  **ExpressJS (a minimalistic web framework)** and **MongoDB (as a database)**.  
-**Mongoose(Object-Document-Mapper)** is used to help writing queries for CRUD operations in JS as an alternative to NoSQL.  
-**bcryptjs** is used to store passwords as hashed passwords.  
-**JWT(Javascript web token)** authorization is used to authorize access to protected endpoints.  
-The backend is responsible for serving both the front-end and the back-end.  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Connecting Front-End with Back-End:
-**Axios** a promise based http library is used to connect the front-end and the backend.
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
